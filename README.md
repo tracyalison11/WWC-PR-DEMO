@@ -5,23 +5,30 @@ This project was created to introduce open source software and pull requests dur
 # GIT COMMANDS
 
 Clone the project to your computer
-
+```
 git clone <URL of project>
-EXAMPLE: git clone https://github.com/tracyalison11/WWC-PR-DEMO.git
-
+```
+Example:
+```
+git clone https://github.com/tracyalison11/WWC-PR-DEMO.git
+```
 Create a new branch
-
+```
 git checkout -b <branch-name>
-EXAMPLE: git checkout -b issue11
-
-Add changes made on branch
-
-EXAMPLE: git add -p
-
-Commit the changes added and add a message about those changes
-
-EXAMPLE: git commit -m "Added a browser tab title"
-
-Push your changes
-
-EXAMPLE: git push --set-upstream origin issue11
+```
+Example:
+```
+git checkout -b issue11
+```
+Add changes made on branch:
+```
+git add -p
+```
+Commit the changes added and add a message about those changes:
+```
+git commit -m "Added a browser tab title"
+```
+Push your changes:
+```
+git push --set-upstream origin issue11
+```
