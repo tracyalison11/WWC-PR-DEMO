@@ -4,20 +4,26 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
-    <h1 class="title-pen">Web Developers</h1>
-    <div class="user-profile">
-    	<img class="avatar" src="https://image.freepik.com/free-icon/user-image-with-black-background_318-34564.jpg" />
-        <div class="username">Daisy Developer</div>
-      <div class="bio">
-      	Web Developer
-      </div>
-        <div class="description">
-          I use to design websites and applications
-          for the web.
-      </div>
-      <ul class="data">
-        <!-- Add information about the technologies daisy uses -->
-     </ul>
-    </div>
+    <div class="wrapper">
+      <h1>Web Developers</h1>
+      <div class="cols">
+          <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <div class="container">
+              <div class="front" style="background-image: url(https://picsum.photos/id/64/500/500)">
+                <div class="inner">
+                  <p>Daisy Developer</p>
+                  <span>Web Developer</span>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p> I use to design websites and applications
+                    for the web.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+     </div>
   </body>
 </html>
